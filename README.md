@@ -1,14 +1,17 @@
 # korma-encrypted-example
 
-A Clojure library designed to ... well, that part is up to you.
+An example application that demonstrates basic setup to use [korma-encrypted](https://github.com/wjdix/korma-encrypted).
 
-## Usage
+## Running locally
 
-FIXME
+The example app is configured for Postgres. To get up and running, update your database configuration in `db.clj` then setup your database:
 
-## License
+```
+lein dbdo
+```
 
-Copyright © 2016 FIXME
+and run the application:
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```
+lein run
+```
